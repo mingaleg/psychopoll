@@ -1,0 +1,65 @@
+body {
+    max-height: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#question-outer {
+    height: 60%;
+    text-align: center;
+}
+
+#question {
+    font-size: xx-large;
+    width: 100%;
+    display: inline;
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#answers {
+    width: 100%;
+}
+
+.answerrow {
+    height: 20%;
+}
+
+.ansleft {
+    width: 50%;
+    float: left;
+}
+
+.ansright {
+    width: 50%;
+    float: right;
+}
+
+a.ans {
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+a, a:hover, a:visited, a:focus {
+    color: #33f;
+}
+
+.start {
+    height: 40%;
+    font-size: x-large;
+    text-align: center;
+}
+
+#result {
+    font-size: 400px;
+}
+
+#signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ccc;
+}
